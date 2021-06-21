@@ -19,7 +19,8 @@
                 <img src="img/logo.png">
             </a>
             <div class="nav-links" id="navLinks">
-                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -88,35 +89,73 @@
 
 
 <section class="facility"> 
-    
     <h1>Our Facilities</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-
     <div class="row">
         <div class="facility-col">
             <img src="img/library.png" alt="">
             <h3>World Class Library</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis, tempora dolores esse iusto dolore</p>
-            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis, tempora dolores esse iusto dolore</p>  
         </div>
         <div class="facility-col">
             <img src="img/basketball.png" alt="">
             <h3>Largest Playground</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis, tempora dolores esse iusto dolore</p>
-            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis, tempora dolores esse iusto dolore</p>   
         </div>
         <div class="facility-col">
             <img src="img/cafeteria.png" alt="">
             <h3>Tasty and Healthy Food</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis reiciendis, tempora dolores esse iusto dolore</p>
-            
         </div>
     </div>
 </section>
 
 
+<section class="test">
+    <h1>What Our Student's Say?</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="test-col">
+            <img src="img/user1.jpg" alt="">
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est possimus perspiciatis corrupti harum quisquam nemo magni ea ratione deleniti explicabo repudiandae quibusdam, alias sunt officiis non quasi doloremque pariatur consectetur?
+                </p>
+                <h3>ABCDEFG</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+        </div>
+
+        <div class="test-col">
+            <img src="img/user2.jpg" alt="">
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est possimus perspiciatis corrupti harum quisquam nemo magni ea ratione deleniti explicabo repudiandae quibusdam, alias sunt officiis non quasi doloremque pariatur consectetur?
+                </p>
+                <h3>ABCDEFG</h3>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-half-o" aria-hidden="true"></i>
 
 
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="cta">
+    <h1>Enroll for our Online classes<br>Anywhere from the World</h1>
+    <a href="">CONTACT US</a>
+</section>
     <script>
         var navLinks = document.getElementById("navLinks");
         function showMenu(){
