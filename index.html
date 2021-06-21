@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;
     300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://use.fontawesome.com/b43d98eb06.js"></script>
     <title>University Website </title>
 </head>
 <body>
@@ -16,7 +18,8 @@
             <a href="index.html">
                 <img src="img/logo.png">
             </a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -25,12 +28,33 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>
-            <p>making website is now one of the easiest thing in the world you just need to learn HTML CSS JavaScript and you are good to go</p>
-            <a href="">Visit Us to Know more</a>
+            <p>making website is now one of the easiest thing in the world you just need to learn HTML CSS <br>JavaScript and you are good to go</p>
+            <a href="" class="hero-btn">Visit Us to Know more</a>
         </div>
     </section>
+<!-----course----->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+</section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
 </body>
 </html>
