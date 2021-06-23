@@ -374,3 +374,44 @@ nav .fa{
 .red-btn:hover{
     color: #fff;
 }
+.blog-con{
+    width: 100%;
+    padding: 60px 0;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.blog-left{
+    width: 50%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.blog-left p{
+    color: #999;
+    padding: 0;
+}
+.blog-right{
+    width: 50%;
+}
+.blog-right h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blog-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
